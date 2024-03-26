@@ -74,7 +74,6 @@ def calculate_error(actual, predicted):
     return [abs((yi - yi_pred) / yi) for yi, yi_pred in zip(actual, predicted)]
 
 
-# Главная функция программы
 def main():
     p = 0
     q = 0
